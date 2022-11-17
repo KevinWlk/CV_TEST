@@ -73,7 +73,7 @@ img{
 
 .experiences{
     display: flex;
-   
+    
 
 }
 
@@ -86,18 +86,29 @@ img{
     
 }
 
-#colonne_droite{
+#contact{
     display: flex;
     flex-direction: column;
-    width: 35%;
+    justify-content: flex-start;
+    background-color: rgba(31,73,125,255);
 }
 
 .blue{
     color: rgba(31,73,125,255);
-    text-decoration: underline rgba(31,73,125,255);
+    border-bottom: 2px solid #cccccc;
+}
+
+.white{
+    color: white;
+    border-bottom: 2px solid #cccccc;
 }
 
 .rond p{
     border-radius: 50%;
     background-color: rgba(31,73,125,255) ;
+    color: white;
+}
+#colonne_droite{
+    display: block;
+    justify-content: center;
 }
