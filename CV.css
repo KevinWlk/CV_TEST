@@ -1,9 +1,27 @@
 
 body{
     font-family: 'Calibri';
-    width: 738px;
-    margin-left: 0px;
-    margin-right: 0px;
+    width: 732px;
+    margin: 0px;
+    font-size: normal;
+}
+
+h4{
+    margin: 0;
+    font-weight: bolder;
+}
+
+h5{
+    margin: 0;
+    color:rgba(31,73,125,255);
+    font-style: italic;
+}
+
+p{
+    padding-top: 0;
+    margin-top: 0;
+    font-size: smaller;
+    
 }
 
 
@@ -12,6 +30,7 @@ body{
     color: rgba(31,73,125,255);
     font-size: xx-large;
     justify-content: center;
+    background-color:#f2f2f2;
 }
 
 #p_intro{
@@ -30,21 +49,24 @@ body{
     font-size: 2em;
     margin-bottom: 0;
     font-weight: bold;
+    margin-top: 0;
 }
 
 #h2_titre{
     display: block;
-    font-size: 20px;
+    font-size: 0.7em;
     margin-top: 0;
-    font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+
 }
 
 #intro{
-
+    display: flex;
     color: white;
     font-size: small;
     padding: 0px;
-    display: flex;
+
 }
 
 #txtintro{
@@ -55,8 +77,8 @@ body{
 }
 
 img{
-    width: 170px;
-    height: 170px;
+    width: 179.5px;
+    height: 179.5px;
     margin-top: auto;
     margin-bottom: auto;
     padding-left: 30px;
@@ -68,47 +90,125 @@ img{
 
 #grandesection{
     column-count: 2;
-    display: flex;
+  display: flex;
+
 }
 
 .experiences{
     display: flex;
-    
-
+    margin-left: 25px;
+    margin-right: 25px;
+    /* padding: 5px; */
+ 
 }
+
 
 #colonne_gauche{
     display: flex;
     flex-direction: column;
     width: 65%;
-
-
-    
 }
 
-#contact{
+.competences{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #f2f2f2;
+    color: rgba(31,73,125,255);
+    
+
+}
+  
+
+.contact{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     background-color: rgba(31,73,125,255);
+    color: white;
 }
 
 .blue{
     color: rgba(31,73,125,255);
-    border-bottom: 2px solid #cccccc;
+    border-bottom: 3px solid #cccccc;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: x-large;
+
+}
+
+#bluecompetence{
+    color: rgba(31,73,125,255);
+    border-bottom: 3px solid rgba(31,73,125,255);
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: x-large;
+    padding-top: 15px;
+    padding-bottom: 0;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .white{
     color: white;
-    border-bottom: 2px solid #cccccc;
+    border-bottom: 3px solid #cccccc;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: x-large;
+    padding-top: 15px;
+    padding-bottom: 0;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+aside{
+    padding: 10px;
+    padding-top: 0
+    ;
 }
 
 .rond p{
     border-radius: 50%;
     background-color: rgba(31,73,125,255) ;
     color: white;
+    width: 45px;
+    height: 45px;
+    font-size: smaller;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+
+    
 }
 #colonne_droite{
-    display: block;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    size: 35%;
+}
+
+
+li{
+    display: flex;
+    padding: 4.5px;
+    font-style: italic
+}
+
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.date{
+    text-align: center;
+}
+
+#hobbies li {
+    padding-top: 0;
+    padding-bottom: 0;
 }
